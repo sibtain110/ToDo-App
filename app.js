@@ -12,7 +12,7 @@ addfun(){
     if (input.value){
         list.push(input.value)
         input.value = ''
-    }
+    }else{alert("please enter data before continuem")}
     this.myfun()
 },
 myfun(){
