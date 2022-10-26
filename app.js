@@ -4,14 +4,21 @@ console.log(input);
 
 const todolist = document.querySelector(".mylist")
 
+const ndinput = document.getElementById("sndinput")
+console.log(ndinput);
+const rdinput = document.getElementById("trdinput")
+console.log(rdinput);
+
 
 const list = []
 
 const todoapp = {
 addfun(){
     if (input.value){
-        list.push(input.value)
+        list.push(input.value + " " +  ndinput.value + " " + rdinput.value)
         input.value = ''
+        ndinput.value = ''
+        rdinput.value = ''
     }else{alert("please enter data before continuem")}
     this.myfun()
 },
