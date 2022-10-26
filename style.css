@@ -2,7 +2,7 @@
     height: 80vh;
     width:30%;
     margin: 0 auto;
-    background-color: rgba(0, 255, 119, 0.897);
+    background-color: rgba(21, 160, 86, 0.897);
     border-radius: 20px;
     box-shadow: 5px 4px 10px 5px;
 }
@@ -12,15 +12,15 @@
     margin-left: 15px;
     padding: 15px;
     width: 250px;
-    background-color: rgba(81, 230, 108, 0.657);
+    background: transparent;
     border-radius: 20px;
     border: 2px solid white;
     color: white;
     font-size: 15px;
     text-transform: capitalize;
 }
-#myinput:active{
-    border: 2px solid white;
+#myinput::placeholder{
+    color: white;
 }
 .addbtn{
     padding: 13px;
@@ -29,10 +29,11 @@
     border-radius: 15px;
     position: relative;
     right: 5px;
+    margin-top: 10px;
     margin-left: 20px;
     color: rgba(255, 255, 255, 0.826);
     font-size: 15px;
-    background-color: rgba(73, 195, 96, 0.657);
+    background-color: rgba(36, 219, 69, 0.657);
     text-transform: capitalize;
 
 }
@@ -45,9 +46,11 @@
     border-radius: 15px;
     color: rgba(255, 255, 255, 0.826);
     font-size: 15px;
-    background-color: rgba(71, 202, 95, 0.657);
+    background-color: red;
     text-transform: capitalize;
     margin-left: 15px;
+    position: relative;
+    left: 235px;
 }
 li{
     font-size: 20px;
@@ -64,21 +67,32 @@ li{
     margin : 10px 15px;
     padding: 15px;
     width: 250px;
-    background-color: rgba(81, 230, 108, 0.657);
+    background: transparent;
     border-radius: 20px;
     border: 2px solid white;
     color: white;
     font-size: 15px;
     text-transform: capitalize;
 }
+#sndinput::placeholder{
+    color: white;
+}
 #trdinput{
     margin : 10px 15px;
     padding: 15px;
     width: 250px;
-    background-color: rgba(81, 230, 108, 0.657);
+    background: transparent;
     border-radius: 20px;
     border: 2px solid white;
     color: white;
     font-size: 15px;
     text-transform: capitalize;
+}
+#trdinput::placeholder{
+    color: white;
+}
+.mylist{
+    height: 24vh;
+    width: auto;
+    
 }

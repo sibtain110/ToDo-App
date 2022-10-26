@@ -15,7 +15,7 @@ const list = []
 const todoapp = {
 addfun(){
     if (input.value){
-        list.push(input.value + " " +  ndinput.value + " " + rdinput.value)
+        list.push(input.value + " " +  ndinput.value + " " +  rdinput.value)
         input.value = ''
         ndinput.value = ''
         rdinput.value = ''
