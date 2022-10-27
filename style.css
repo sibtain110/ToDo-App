@@ -94,5 +94,10 @@ li{
 .mylist{
     height: 24vh;
     width: auto;
-    
+    overflow-y: hidden;
+    color: white;
+}
+
+.mylist:hover{
+    overflow-y: scroll;
 }
